@@ -9,7 +9,7 @@ CORS(app)  # Enable CORS for all routes
 
 # Initialize Flagsmith client
 flagsmith = Flagsmith(
-    environment_key="7Jizsra6AEgfh4Baiiu8RX",  # Replace with your actual Flagsmith environment key
+    environment_key="",  # Replace with your actual Flagsmith environment key
 )
 
 # Initialize VADER sentiment analyzer
